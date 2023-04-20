@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Guitar Survey</h1>
+    <p id="description">This is the guitar survey you never knew you needed.</p>
+    
+
+    <form id="survey-form" method="post">
+      <fieldset>
+        <label id="name-label" name="name-label">Enter your rockstar name: <input id="name" type="text" placeholder="First Last" required /></label>
+        <label id="email-label"  name="email-label">Enter your shredder email: <input id="email" type="email" placeholder="address@email.com" required /></label>
+        <label id="number-label" name="number-label">How many guitars do wish you owned? <input id="number" type="number" min=0 max=100 placeholder="777" /></label>
+        <label for="dropdown">Favourite guitar: 
+          <select id="dropdown" name="dropdown">
+            <option value="">(select one)</option>
+            <option value="strat">Strat</option>
+            <option value="lespaul">Les Paul</option>
+            <option value="other">other</option>            
+          </select>
+        </label>
+
+        <label for="righty"><input id="righty" type="radio" name="radio-buttons" class="inline" value="righty"/> Right-handed</label>
+        <label for="lefty"><input id="lefty" type="radio" name="radio-buttons" class="inline" value="lefty"/> Left-handed</label>
+      </fieldset>
+
+      <fieldset>
+        <label for="checkbox-one">
+          <input id="checkbox-one" type="checkbox" name="checkbox-one" class="inline" value="whammybar"/> Whammy bar</a>
+        </label>
+        <label for="checkbox-two">
+          <input id="checkbox-two" type="checkbox" name="checkbox-two" class="inline" value="scalloped"/> Scalloped fretboard</a>
+        </label>        
+        </label>
+        <label for="checkbox-three">
+          <input id="checkbox-three" type="checkbox" name="checkbox-three" class="inline" value="locking"/> Locking nut</a>
+        </label>                
+      </fieldset>
+      <fieldset>
+        <label for="textarea">Any additional comments or wishes? </label>       
+          <textarea id="textarea" name="textarea" rows="5" cols="30" placeholder="Comments? Wishes?"></textarea>
+      </fieldset>
+      <input type="submit" id="submit" value="Submit" />      
+      </form>
+  </body>
+</html>
