@@ -45,10 +45,7 @@ img {
 #img-div {
   background: white;
   padding: 10px;
-  /* image is 727 wide 
-  padding: 10px;  
-  */
-  margin: 10px;
+  margin: auto;
 }
 
 #img-caption {
