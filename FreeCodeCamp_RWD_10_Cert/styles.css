@@ -44,9 +44,8 @@ img {
 
 #img-div {
   background: white;
-  padding: calc(10% - 727px);
+  padding: 50px;
   /* image is 727 wide 
-  padding: calc(100% - 727px);
   padding: 10px;  
   */
   margin: 0;
