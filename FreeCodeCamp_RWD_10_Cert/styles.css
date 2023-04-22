@@ -44,11 +44,11 @@ img {
 
 #img-div {
   background: white;
-  padding: 50px;
+  padding: 10px;
   /* image is 727 wide 
   padding: 10px;  
   */
-  margin: 0;
+  margin: 10px;
 }
 
 #img-caption {
