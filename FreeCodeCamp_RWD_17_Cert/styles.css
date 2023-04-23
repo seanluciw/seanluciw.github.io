@@ -57,7 +57,7 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #eee;
+  background-color: #ddd;
 }
 
 @media (max-width: 600px) {
@@ -99,7 +99,6 @@ header {
 nav {
   font-weight: 400;
 }
-
 
 @media (max-width: 650px) {
   nav {
