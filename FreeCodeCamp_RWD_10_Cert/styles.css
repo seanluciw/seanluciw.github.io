@@ -3,11 +3,11 @@ html {
 }
 
 body {
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-size: 1.8rem;
-  line-height: 1.5;
+  line-height: 1.4;
   text-align: center;
-  color: #333;
+  color: #444;
   margin: 0;
   background: purple;
 }
@@ -20,18 +20,18 @@ body {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 3.8rem;
   margin-bottom: 0;
 }
 
 h2 {
-  font-size: 3.25rem;
+  font-size: 3rem;
 }
 
 @media (max-width: 460px) {
   h1 {
-    font-size: 3.5rem;
-    line-height: 1.2;
+    font-size: 3.4rem;
+    line-height: 1.1;
   }
 }
 
@@ -43,7 +43,7 @@ img {
 }
 
 #img-div {
-  background: white;
+  background: #eee;
   padding: 20px;
   margin: 10vw;
 }
@@ -54,7 +54,7 @@ img {
 
 @media (max-width: 460px) {
   #img-caption {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 }
 
@@ -64,18 +64,18 @@ img {
 }
 
 a {
-  color: #477ca7;
+  color: blue;
 }
 
 a:visited {
-  color: #74638f;
+  color: purple;
 }
 
 ul {
   max-width: 550px;
   margin: 0 auto 50px auto;
   text-align: left;
-  line-height: 1.6;
+  line-height: 1.4;
 }
 
 li {
@@ -84,7 +84,11 @@ li {
 
 blockquote {
   font-style: italic;
-  max-width: 545px;
+  max-width: 444px;
   margin: 0 auto 50px auto;
   text-align: left;
+}
+
+cite {
+  padding-left: 25px;
 }
